@@ -1,5 +1,9 @@
-def add_money(money):
-    return money + 500
 
-a = add_money(4)
-print(a)
+a = 300
+b = 200 
+if b > a:
+    print("b is grater than a")
+elif a == b:
+    print("a and b are equal")
+else:
+    print("a is grater than b")
