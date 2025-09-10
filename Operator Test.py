@@ -13,3 +13,12 @@ elif num1 < num2:
     print("จ่ายตังเพิ่ม",num2 - num1)
 else:
     print("เงินทอน",num1 - num2)
+
+#ลองทำเป็นระบบ Login
+username=input("YourName:")
+password=input("Pasword:")
+
+if username=="Admin" and password=="1234":
+    print("เข้าสู่ระบบสำเร็จ")
+else:
+    print("เข้าสู่ระบบไม่สำเร็จ")
